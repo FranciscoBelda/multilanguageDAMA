@@ -1,0 +1,25 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title color="secondary" size="large">{{'ABOUT' | translate}}</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="actionSheetService.changeLanguage()">
+        <ion-icon color="success" name="language-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title color="primary">
+        <h2>{{'HELLO' | translate}} </h2>
+      </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      {{'MY_NAME' | translate}}
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
