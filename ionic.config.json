@@ -1,0 +1,7 @@
+{
+  "name": "multilanguageDAMA",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
